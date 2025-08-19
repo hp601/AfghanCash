@@ -1,0 +1,119 @@
+/* تنظیمات عمومی */
+body {
+  font-family: 'Tahoma', sans-serif;
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+}
+
+/* لوگوی افغان‌کَش */
+.logo {
+  width: 120px;
+  height: auto;
+  display: block;
+  margin: 15px auto;
+}
+
+/* هدر */
+header {
+  background-color: #006644;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  border-bottom: 4px solid #00aa55;
+}
+
+/* منوی ناوبری */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ffdd00;
+}
+
+/* محتوای اصلی */
+main {
+  padding: 20px;
+}
+
+section {
+  background-color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* فرم‌ها */
+form {
+  background-color: #fff;
+  padding: 20px;
+  max-width: 500px;
+  margin: auto;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 14px;
+}
+
+button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 12px;
+  background-color: #006644;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #009966;
+}
+
+/* لیست‌ها */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  padding: 8px 0;
+  border-bottom: 1px solid #eee;
+}
+
+/* فوتر */
+footer {
+  background-color: #ddd;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+  margin-top: 30px;
+  border-top: 2px solid #ccc;
+}
